@@ -58,9 +58,7 @@ void main(void)
 
 	uint8_t index = 5;
 	uint8_t j = 0;
-	//	uint8_t modeSelected = 1;
 	enter_DefaultMode_from_RESET();
-	// Enable all interrupts
 	DISP_Init();
 	BC_EN = 0;               // Board controller connected to EFM8
 	LEDG=0;
