@@ -54,8 +54,6 @@ SI_INTERRUPT(PMATCH_ISR, PMATCH_IRQn)
 
 void main(void)
 {
-	//uint8_t Screen [3][20];
-
 	uint8_t index = 5;
 	uint8_t j = 0;
 	enter_DefaultMode_from_RESET();
